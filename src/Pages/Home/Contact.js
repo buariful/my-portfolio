@@ -2,8 +2,8 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className='w-11/12 mx-auto'>
-            <h1 className='font-semibold text-neutral my-6 text-5xl'>Connect with me</h1>
+        <div className='w-11/12 mx-auto' id='contact'>
+            <h1 className='font-semibold text-primary my-6 text-5xl'>Connect with me</h1>
 
             <form className='w-8/10 md:w-1/3 mx-auto'>
                 <input type="text" placeholder="Your Name" className="input input-bordered w-full mb-3 text-black" /> <br />

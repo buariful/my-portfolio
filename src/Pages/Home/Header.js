@@ -1,5 +1,4 @@
 import React from 'react';
-import avatar from '../../img/avatar.png'
 
 const Header = () => {
     return (
@@ -12,7 +11,8 @@ const Header = () => {
                     <a class="btn hover:bg-white hover:text-primary btn-outline text-white ml-5 font-bold" href='https://drive.google.com/uc?export=download&id=1-PRdpPUyx4cLGzNMtbowXtfGjZGGUkTJ'>My Resume</a>
                 </div>
                 <div>
-                    <img src={avatar} alt="avatar" className='' />
+                    <img src="https://i.ibb.co/bKQgqmG/profile-pic.png" alt="avatar" className='w-1/3 md:w-2/3 mx-auto' />
+
                 </div>
             </div>
         </div>

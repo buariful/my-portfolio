@@ -4,6 +4,7 @@ import Header from './Header';
 import Skill from './Skill';
 import Works from './Works';
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
+import About from './About';
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
         <div className='text-red-400'>
             <Header></Header>
             <Skill></Skill>
+            <About></About>
             <Works></Works>
             <Contact></Contact>
             <div className='flex flex-col fixed top-56 right-14 gap-5 border-l-2 pl-2'>

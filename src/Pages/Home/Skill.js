@@ -7,8 +7,8 @@ import SkillImg from '../../img/undraw_feeling_proud_qne1.png'
 
 const Skill = () => {
     return (
-        <div className='w-10/12 mx-auto'>
-            <h1 className='font-semibold text-neutral my-6 text-5xl'>My Skills</h1>
+        <div className='w-10/12 mx-auto' id='skill'>
+            <h1 className='font-semibold text-primary my-6 text-5xl'>My Skills</h1>
 
             <div className='flex flex-col md:flex-row items-center justify-evenly'>
                 <img src={SkillImg} alt="" className='w-56 md:w-96' />
